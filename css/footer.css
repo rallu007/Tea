@@ -1,0 +1,19 @@
+.footer_container{
+    background-color: #257973 ;
+    color: white;
+    padding: 20px;
+
+}
+.footer_heading{
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+}
+.somelink{
+    display: flex;
+    text-decoration: none;
+    color: white;
+
+    align-content: flex-end;
+    align-content: center;
+    margin-left: 41%;
+}
