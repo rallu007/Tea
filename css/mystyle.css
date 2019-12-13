@@ -6,7 +6,8 @@
     border: 0;
     box-sizing: border-box;
 }
-.body_container{
+
+.body_container {
     font-family: "Roboto", Helvetica, sans-serif;
     background-color: white;
     position: relative;
@@ -15,119 +16,280 @@
     text-align: center;
 
 }
-.wrapper_container{
-    padding: 40 px;
+
+
+.wrapper_container {
+    padding: 10px;
 }
 
-.image_container{
 
-   max-width: 100%;
+
+.instant {
+    max-width: 59%;
+    margin-left: 1%;
+
 
 }
-.instant{
-    max-width: 100%;
+
+.instant1 {
+    max-width: 39%;
+    padding: 2px;
 }
+
+.container2 {
+    display: flex;
+    margin-top: 6%;
+
+
+}
+
+.text_instant {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    text-decoration: none;
+    color: #594442;
+    font-family: "Baskervville", serif;
+}
+
+
+
 .image_container {
-  position: relative;
-  width: 100%;
-  max-width: 100%;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    top: auto;
+    padding: 0px;
+    background-color: #EAEAEE;
+    padding-bottom: 6vw;
 }
 
 .image_container .btn {
-  position: absolute;
-  top: 86%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #FCD9E5;
-  color: #594442;
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
+    position: relative;
+    top: 8vw;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    background-color: #FCD9E5;
+    color: #594442;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
     border-style: solid;
     border-color: #257973;
 }
 
 .image_container .btn:hover {
-  background-color: #A7B9D2 ;
+    background-color: #A7B9D2;
     color: white;
 }
-    .introduction_text{
-        font-size: 16px;
-    }
 
-.order_heading{
+.introduction_text {
+    font-size: 16px;
+}
+
+.order_heading {
     text-align: center;
     color: #594442;
     font-family: "Baskervville", serif;
-    font-size: 26px;
+    font-size: 28px;
 }
-.order_container{
-    background-color: #EAEAEE ;
+
+.order_container {
+    background-color: #EAEAEE;
     padding: 30px;
 }
-.order_subheading{
-    font-size: 20px;
+
+.order_subheading {
+    font-size: 22px;
     font-family: "Raleway", sans-serif;
 
 }
 
-.reviews_header_container{
-    background-color: #FCD9E5;
-    height: auto;}
 
-.reviews_header{
-    font-size: 24px;
-    font-family: "Raleway", sans-serif;
-}
-.reviews_container{
-    background-color: #EAEAEE ;
-}
-.eliza{
-     display: grid;
-    width: 100%;
-    grid-template-rows: 350px;
-    grid-template-areas:
-        "eliza_photo"
-        "eliza_text"
-}
-.eliza_photo{
-    max-width: 60%;
-    grid-area: "eliza_photo";
-
-}
-.eliza_name{
-    font-size: 20px;
-}
-.eliza_paragraph{
-    font-size: 16px;
-}
-.eliza_information{
-    grid-area: "eliza_text";
-}
-.articles_header{
+.articles_header {
     font-family: "Baskervville", serif;
     font-size: 26px;
 }
-.articles_container{
-    background-color:#EAEAEE ;
+
+.articles_container {
+    background-color: #EAEAEE;
+    padding-top: 20px;
 }
-.centered{
-      position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 20px;
+    text-decoration: none;
+    color: #594442;
+
 }
-.a1{
-      position: relative;
-  text-align: center;
-  color:#594442 ;
+
+.a1 {
+    position: relative;
+    text-align: center;
+    color: #594442;
+    padding: 20px;
 }
-.shopping_online_image{
+
+.a2 {
+    position: relative;
+    text-align: center;
+    color: #594442;
+    padding: 20px;
+}
+
+.shopping_online_image {
     opacity: 60%;
+}
+
+.introduction_text {
+    font-size: 18px;
+    padding: 20px;
+}
+
+.icetea_img {
+    opacity: 50%;
+}
+
+@media only screen and (min-width: 955px) {
+    .articles_container {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+
+    .wrapper_container {
+        padding: 160px;
+        background-color: white;
+    }
+
+    .image_container {
+        margin-top: -13%;
+    }
+
+    .introduction_text {
+        font-size: 22px;
+        padding: 30px;
+    }
+
+    .order_heading {
+        font-size: 40px;
+    }
+
+    .articles_container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .a1 {
+        max-width: 42%;
+        padding: 10px;
+    }
+
+    .instant {
+        max-width: 56%;
+        margin-left: 3vw;
+    }
+
+    .instant1 {
+        max-width: 36%;
+    }
+
+    .text_instant {
+        font-size: 30px;
+        margin-top: -2vw;
+    }
+
+    .button_container {
+        margin-left: 30%;
+        margin-right: 26%;
+        margin-top: -3vw;
+    }
+
+    .image_container {
+        padding-bottom: 9vw;
+    }
+
+
+    .order_subheading {
+        font-size: 28px;
+    }
+
+    .fas fa-box-open {
+        width: 200px;
+    }
+
+    .order_paragraph {
+        font-size: 18px;
+    }
+
+    .articles_header {
+        font-size: 40px;
+    }
+
+    .centered {
+        font-size: 25px;
+    }
+
+    .tracking-in-expand {
+        -webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+        animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    }
+
+    /* ----------------------------------------------
+ * Generated by Animista on 2019-12-14 0:20:19
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info.
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+    /**
+ * ----------------------------------------
+ * animation tracking-in-expand
+ * ----------------------------------------
+ */
+    @-webkit-keyframes tracking-in-expand {
+        0% {
+            letter-spacing: -0.5em;
+            opacity: 0;
+        }
+
+        40% {
+            opacity: 0.6;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes tracking-in-expand {
+        0% {
+            letter-spacing: -0.5em;
+            opacity: 0;
+        }
+
+        40% {
+            opacity: 0.6;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .home{
+        background-color: #EAEAEE;
+}
+
 }

@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home | Whittard Instant Tea </title>
+    <title>Tea Collection | Whittard Instant Tea </title>
     <link rel="stylesheet" href="../css/mystyle.css">
     <link rel="stylesheet" href="../css/navigation.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/TeaCollection.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link href="https://fonts.googleapis.com/css?family=Baskervville|Raleway|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baskervville|Raleway|Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6a331c31d1.js"></script>
 
 
@@ -26,7 +26,7 @@
 <body class="body_container">
 
 
-    <!-- Copied navbar-->
+
     <header>
         <nav class="navigation_container">
 
@@ -36,13 +36,14 @@
                 <div class="shopping_bag">
                     <i class="fas fa-shopping-bag"></i>
                 </div>
-                <a href="../index.html"><img src="../Logo/Logo%20V1-01.png" style="width:100%;" class="logo_image" alt="Logo"></a>
+                <img src="../Images/logologo.png" style="width:100%;" class="logo_image" alt="Logo">
 
                 <!-- Navigation links (hidden by default) -->
                 <div id="myLinks" class="some_links">
+                    <a href="../index.html">Home</a>
                     <a href="../Subpages/TeaCollection.html">Tea Collection</a>
-                    <a href="#articles">Articles</a>
-                    <a href="#aboutus">About Us</a>
+                    <a href="../Subpages/articlescontainer.html">Articles</a>
+                    <a href="../Subpages/articlescontainer.html">About Us</a>
                     <a href="#contact">Contact</a>
                 </div>
                 <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
@@ -61,50 +62,73 @@
                     }
                 }
             </script>
+
         </nav>
 
 
     </header>
     <div class="wrapper_container">
-        <h1 class="tea_collection_header">Discover our Instant Tea!</h1>
-        <br>
+        <div class="hheader">
+        <p class="line_separator">
+            <span class="tea_collection_header">Discover our Instant Tea!</span>
+        </p>
+            </div>
+<div class="alltea_container">
         <div class="tea_container">
-            <img src="../Images/Dreamtime.jpg" alt="Instant Tea Dreamtime Flavor" class="tea_image">
-            <button class="btn">Buy</button>
+            <h1 class="tea_text">Dreamtime Flavor</h1>
+            <img src="../Images/Dreamtime.webp" alt="Instant Tea Dreamtime Flavor" class="tea_image">
+            <button class="btn2" type="button" onclick="document.getElementById('model_id').style.display='block';">VIEW DETAILS</button>
+            <button class="btn">Add to cart</button>
             <h1 class="price"> 99.00 DKK
             </h1>
+
+        </div>
+
+        <br><br>
+        <p class="line_separator"></p>
+        <div class="tea_container">
+            <h1 class="tea_text">Lychee&amp;Mango Flavor</h1>
+            <img src="../Images/LYCHEE_MANGO.webp" alt="Instant Tea Dreamtime Flavor" class="tea_image">
+            <button class="btn2" type="button" onclick="document.getElementById('modal_id').style.display='block';">VIEW DETAILS</button>
+            <button class="btn">Add to cart</button>
+            <h1 class="price"> 99.00 DKK
+            </h1>
+
+
+
+        </div>
+        </div>
+        <br>
+        <br>
+        <div class="alltea_container2">
+        <br><br>
+        <p class="line_separator"></p>
+        <div class="tea_container">
+            <h1 class="tea_text">Cranberry&amp;Raspberry Flavor</h1>
+            <img src="../Images/CRANBERRY_RASPBERRY.webp" alt="Instant Tea Dreamtime Flavor" class="tea_image">
+            <button class="btn2" type="button" onclick="document.getElementById('modaal_id').style.display='block';">VIEW DETAILS</button>
+            <button class="btn">Add to cart</button>
+            <h1 class="price"> 99.00 DKK</h1>
+
+
 
         </div>
         <br><br>
+        <p class="line_separator"></p>
         <div class="tea_container">
-            <img src="../Images/LYCHEE_MANGO.jpg" alt="Instant Tea Dreamtime Flavor" class="tea_image">
-            <button class="btn">Buy</button>
+            <h1 class="tea_text">Lemon&amp;Lime Flavor</h1>
+            <img src="../Images/LEMON_LIME.webp" alt="Instant Tea Dreamtime Flavor" class="tea_image">
+            <button class="btn2" type="button" onclick="document.getElementById('modeel_id').style.display='block';">VIEW DETAILS</button>
+            <button class="btn">Add to cart</button>
             <h1 class="price"> 99.00 DKK
             </h1>
 
 
 
         </div>
-<br><br>
-        <div class="tea_container">
-            <img src="../Images/CRANBERRY_RASPBERRY.jpg" alt="Instant Tea Dreamtime Flavor" class="tea_image">
-            <button class="btn">Buy</button>
-            <h1 class="price"> 99.00 DKK
-            </h1>
-
-
-
-        </div>
-        <div class="tea_container">
-            <img src="../Images/LEMON_LIME.jpg" alt="Instant Tea Dreamtime Flavor" class="tea_image">
-            <button class="btn">Buy</button>
-            <h1 class="price"> 99.00 DKK
-            </h1>
-
-
-
-        </div>
-
+    </div>
+        <br><br>
+        <p class="line_separator"></p>
 
 
 
@@ -117,6 +141,18 @@
 
 
 
+    <br> <br>
+    <div class="delivery_container">
+        <h2 class="delivery_subheading">Free delivery between 3-10 days</h2>
+        <br>
+        <i class="fas fa-truck"></i>
+        <br>
+        <br>
+        <p class="delivery_paragraph">We want to give our customers the best experience! Free shipping in all Europe. Order now and your desired tea will arrive at your door between 3-10 days.
+        </p>
+
+
+    </div>
     <br> <br>
 
 
@@ -141,7 +177,127 @@
     </footer>
 
 
+    <!-- dialog for mango-->
+    <div id="modal_id" class="modal animate">
 
+        <div class="modal_content">
+            <span onclick="document.getElementById('modal_id').style.display='none';" class="close">&times;</span>
+            <br> <br>
+            <h1 class="text">Lychee&amp;Mango Flavor</h1>
+            <img src="../Images/collage%20mango.webp" class="img" alt="Lychee&Mango Tea">
+            <div class="price_add">
+                <h1 class="price2"> 99.00 DKK
+                </h1>
+                <button class="btn3">Add to cart</button>
+            </div>
+            <br>
+            <h1 class="dialog_title">Description</h1>
+            <p class="dialog_paragraph">Are you an explorer? Then you should try this sweet, exotic mixture of delicate lychee and juicy mango flavors.</p>
+
+            <p class="dialog_paragraph">Weight: 450g</p>
+            <h1 class="dialog_title">Ingredients</h1>
+            <p class="dialog_paragraph">Sugar, Acidity Regulator: Citric Acid, Black Tea Extract (1%), Flavoring.
+                <br>
+                Suitable for Vegetarians &amp; Vegans.</p>
+            <h1 class="dialog_title">Taste Guarantee</h1>
+            <p class="dialog_paragraph">If you order it and it's not on your taste, you can send it back within 14 days for a full refund or for an exchange. No risk of dissapointing! </p>
+
+        </div>
+    </div>
+
+
+    <!--dialog ends-->
+    <!-- dialog for dreamtime-->
+    <div id="model_id" class="modal animate">
+
+        <div class="modal_content">
+            <span onclick="document.getElementById('model_id').style.display='none';" class="close">&times;</span>
+            <br> <br>
+            <h1 class="text">Dreamtime Flavor</h1>
+            <img src="../Images/collage%20dreamtime.webp" class="img" alt="Dreamtime Tea">
+            <div class="price_add">
+                <h1 class="price2"> 99.00 DKK
+                </h1>
+                <button class="btn3">Add to cart</button>
+            </div>
+            <br>
+            <h1 class="dialog_title">Description</h1>
+            <p class="dialog_paragraph">Try our sweetly soothing tea, with fruity flavors of apricot and honey and a comforting, creamy finish to warm up your soul. </p>
+
+            <p class="dialog_paragraph">Weight: 450g</p>
+            <h1 class="dialog_title">Ingredients</h1>
+            <p class="dialog_paragraph">Sugar, Acidity Regulator E330 (Citric Acid), Black Tea Extract (1%), Flavoring.
+                <br>
+                Suitable for Vegetarians &amp; Vegans.</p>
+            <h1 class="dialog_title">Taste Guarantee</h1>
+            <p class="dialog_paragraph">If you order it and it's not on your taste, you can send it back within 14 days for a full refund or for an exchange. No risk of dissapointing! </p>
+
+        </div>
+    </div>
+
+
+    <!--dialog ends-->
+
+    <!-- dialog for cranberry-->
+    <div id="modaal_id" class="modal animate">
+
+        <div class="modal_content">
+            <span onclick="document.getElementById('modaal_id').style.display='none';" class="close">&times;</span>
+            <br> <br>
+            <h1 class="text">Cranberry &amp; Raspberry Flavor</h1>
+            <img src="../Images/collage%20cranberry&raspberry.webp" class="img" alt="Cranberry&Raspberry Tea">
+            <div class="price_add">
+                <h1 class="price2"> 99.00 DKK
+                </h1>
+                <button class="btn3">Add to cart</button>
+            </div>
+            <br>
+            <h1 class="dialog_title">Description</h1>
+            <p class="dialog_paragraph">Try our sweet, refreshing, raspberry flavored tea with crisp, clean flavor of cranberry.</p>
+
+            <p class="dialog_paragraph">Weight: 450g</p>
+            <h1 class="dialog_title">Ingredients</h1>
+            <p class="dialog_paragraph">Sugar, Acidity Regulator E330 (Citric Acid), Black Tea Extract (1%), Flavouring, Colour: E163 (Anthocyanin).
+                <br>
+                Suitable for Vegetarians &amp; Vegans.</p>
+            <h1 class="dialog_title">Taste Guarantee</h1>
+            <p class="dialog_paragraph">If you order it and it's not on your taste, you can send it back within 14 days for a full refund or for an exchange. No risk of dissapointing! </p>
+
+        </div>
+    </div>
+
+
+    <!--dialog ends-->
+    <!-- dialog for lemon-->
+    <div id="modeel_id" class="modal animate">
+
+        <div class="modal_content">
+            <span onclick="document.getElementById('modeel_id').style.display='none';" class="close">&times;</span>
+            <br> <br>
+            <h1 class="text">Lemon &amp; Lime Flavor</h1>
+            <img src="../Images/collage%20lemon&lime.webp" class="img" alt="Lemon&Lime Tea">
+            <div class="price_add">
+                <h1 class="price2"> 99.00 DKK
+                </h1>
+                <button class="btn3">Add to cart</button>
+            </div>
+            <br>
+            <h1 class="dialog_title">Description</h1>
+            <p class="dialog_paragraph">Feeling spontaneous today? Look no further than our Lemon&amp;Lime tea, which is like a homemade lemonade, with a hit of lemon sherbet. </p>
+
+            <p class="dialog_paragraph">Weight: 450g</p>
+            <h1 class="dialog_title">Ingredients</h1>
+            <p class="dialog_paragraph">Sugar, Acidity Regulator E330 (Citric Acid), Black Tea Extract (1%), Flavouring.
+                <br>
+                Suitable for Vegetarians &amp; Vegans.</p>
+            <h1 class="dialog_title">Taste Guarantee</h1>
+            <p class="dialog_paragraph">If you order it and it's not on your taste, you can send it back within 14 days for a full refund or for an exchange. No risk of dissapointing! </p>
+
+        </div>
+    </div>
+
+
+    <!--dialog ends-->
 
 
 

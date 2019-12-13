@@ -9,11 +9,8 @@
     font-family: "Raleway", sans-serif;
 }
 .somelink{
-    display: flex;
     text-decoration: none;
     color: white;
 
-    align-content: flex-end;
-    align-content: center;
-    margin-left: 41%;
+
 }
